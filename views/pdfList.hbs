@@ -1,0 +1,18 @@
+<section>
+  <h1>Available PDFs</h1>
+  <p>Click any resource to view or download.</p>
+
+  {{#if pdfs.length}}
+    <div class="pdf-grid">
+      {{#each pdfs}}
+        <article class="pdf-card">
+          <h2>{{this.title}}</h2>
+          <p>{{this.description}}</p>
+          <a href="/pdfs/{{this.id}}" class="btn">View PDF</a>
+        </article>
+      {{/each}}
+    </div>
+  {{else}}
+    <p>No PDFs are available right now. Please check back later.</p>
+  {{/if}}
+</section>

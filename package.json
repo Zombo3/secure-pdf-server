@@ -1,0 +1,13 @@
+{
+  "name": "secure-pdf-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-handlebars": "^7.1.3"
+  }
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "intro-to-graffiti",
+    "filename": "intro-graffiti.pdf",
+    "title": "Intro to Graffiti Culture",
+    "description": "A beginner-friendly guide to graffiti history, styles, and key terms."
+  },
+  {
+    "id": "spray-can-techniques",
+    "filename": "spray-techniques.pdf",
+    "title": "Spray Can Techniques 101",
+    "description": "Basic can control, cap types, and line work exercises to improve your skills."
+  },
+  {
+    "id": "legal-wall-guide",
+    "filename": "legal-walls.pdf",
+    "title": "Finding Legal Walls",
+    "description": "Tips for finding legal graffiti spots and respecting local rules and communities."
+  }
+]
+

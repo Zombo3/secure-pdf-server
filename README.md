@@ -6,19 +6,6 @@ Author
 Sany Dagher
 COS 498 – Fall 2025
 
-## Quick Start
-
-Clone the repository:
-```bash
-git clone https://github.com/Zombo3/secure-pdf-server.git
-cd secure-pdf-server
-
-Install dependencies:
-npm install
-
-Start the server:
-npm start
-
 The server will run at:
 http://localhost:5000
 

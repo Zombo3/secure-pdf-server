@@ -56,3 +56,31 @@ secure-pdf-server/
 ├── server.js
 ├── package.json
 └── package-lock.json
+
+PDF Metadata
+Metadata is stored in data/pdfMetadata.json:
+
+[
+  {
+    "id": "intro-to-graffiti",
+    "filename": "intro-graffiti.pdf",
+    "title": "Intro to Graffiti Culture",
+    "description": "A beginner-friendly guide to graffiti history and styles."
+  }
+]
+
+Each PDF entry includes:
+- id – used in URL routing
+- filename – file stored in the pdfs/ directory
+- title – displayed on the website
+- description – displayed on the website
+
+Domain & HTTPS
+Domain used for this project:
+- pdf.zombo3.store
+Configured using Nginx Proxy Manager:
+- Reverse proxy to: http://127.0.0.1:5000
+- SSL certificate: Let’s Encrypt
+- Force HTTPS enabled
+- Also supports www.pdf.zombo3.store
+
